@@ -1,0 +1,136 @@
+cards = [
+
+  {
+    'id': 0,
+    'number': '0',
+    'name': 'The Fool',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/thumb/9/90/RWS_Tarot_00_Fool.jpg/343px-RWS_Tarot_00_Fool.jpg',
+  },
+  {
+    'id': 1,
+    'number': 'I',
+    'name': 'The Magician',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/thumb/d/de/RWS_Tarot_01_Magician.jpg/150px-RWS_Tarot_01_Magician.jpg',
+  },
+  {
+    'id': 2,
+    'number': 'II',
+    'name': 'The Priestess',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/thumb/8/88/RWS_Tarot_02_High_Priestess.jpg/220px-RWS_Tarot_02_High_Priestess.jpg',
+
+  },
+  {
+    'id': 3,
+    'number': 'III',
+    'name': 'The Empress',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/d/d2/RWS_Tarot_03_Empress.jpg',
+  },
+  {
+    'id': 4,
+    'number': 'IV',
+    'name': 'The Emperor',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/c/c3/RWS_Tarot_04_Emperor.jpg',
+  },
+  {
+    'id': 5,
+    'number': 'V',
+    'name': 'The Hierophant',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/8/8d/RWS_Tarot_05_Hierophant.jpg',
+  },
+  {
+    'id': 6,
+    'number': 'VI',
+    'name': 'The Lovers',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/thumb/d/db/RWS_Tarot_06_Lovers.jpg/220px-RWS_Tarot_06_Lovers.jpg',
+  },
+  {
+    'id': 7,
+    'number': 'VII',
+    'name': 'The Chariot',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/RWS_Tarot_07_Chariot.jpg/220px-RWS_Tarot_07_Chariot.jpg',
+  },
+  {
+    'id': 8,
+    'number': 'VIII',
+    'name': 'Justice',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/RWS_Tarot_11_Justice.jpg/220px-RWS_Tarot_11_Justice.jpg',
+  },
+  {
+    'id': 9,
+    'number': 'IX',
+    'name': 'The Hermit',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/RWS_Tarot_09_Hermit.jpg/220px-RWS_Tarot_09_Hermit.jpg',
+  },
+  {
+    'id': 10,
+    'number': 'X',
+    'name': 'Wheel of Fortune',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/3/3c/RWS_Tarot_10_Wheel_of_Fortune.jpg',
+  },
+  {
+    'id': 11,
+    'number': 'XI',
+    'name': 'Justice',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/RWS_Tarot_11_Justice.jpg/220px-RWS_Tarot_11_Justice.jpg',
+  },
+  {
+    'id': 12,
+    'number': 'XII',
+    'name': 'The Hanged Man',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/2/2b/RWS_Tarot_12_Hanged_Man.jpg',
+  },
+  {
+    'id': 13,
+    'number': 'XIII',
+    'name': 'Death',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/d/d7/RWS_Tarot_13_Death.jpg',
+  },
+  {
+    'id': 14,
+    'number': 'XIV',
+    'name': 'Temperance',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/f/f8/RWS_Tarot_14_Temperance.jpg',
+  },
+  {
+    'id': 15,
+    'number': 'XV',
+    'name': 'The Devil',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/5/55/RWS_Tarot_15_Devil.jpg',
+  },
+  {
+    'id': 16,
+    'number': 'XVI',
+    'name': 'The Tower',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/5/53/RWS_Tarot_16_Tower.jpg',
+  },
+  {
+    'id': 17,
+    'number': 'XVII',
+    'name': 'The Star',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/d/db/RWS_Tarot_17_Star.jpg',
+  },
+  {
+    'id': 18,
+    'number': 'XVIII',
+    'name': 'The Moon',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/RWS_Tarot_18_Moon.jpg/220px-RWS_Tarot_18_Moon.jpg',
+  },
+  {
+    'id': 19,
+    'number': 'XIX',
+    'name': 'The Sun',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/1/17/RWS_Tarot_19_Sun.jpg',
+  },
+  {
+    'id': 20,
+    'number': 'XX',
+    'name': 'Judgement',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/RWS_Tarot_20_Judgement.jpg/220px-RWS_Tarot_20_Judgement.jpg',
+  },
+  {
+    'id': 21,
+    'number': 'XI',
+    'name': 'The World',
+    'image_url': 'https://upload.wikimedia.org/wikipedia/en/f/ff/RWS_Tarot_21_World.jpg',
+  },
+]
