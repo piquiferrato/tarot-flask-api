@@ -5,10 +5,12 @@ from deck import cards
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def ping():
-  return "Welcome"
+  endpoints = [rule.rule for rule in app.url_map.iter_rules() 
+  if rule.endpoint !='static']
+  
+  return jsonify(dict(api_endpoints=endpoints))
 
 @app.route('/tarot/deck/', methods=['GET'])
 def getDeck():
@@ -30,8 +32,8 @@ def dealCards():
 
 @app.route('/tarot/deck/card/random/', methods=['GET'])
 def getRandomCard():
-  card = random.choice(cards,1)
+  card = random.choice(cards)
   return jsonify({'card': card})
 
 if __name__ == '__main__':
-  app.run(debug=True, use_reloader=True)
+  app.run(debug=False, use_reloader=True)
