@@ -14,7 +14,7 @@ def ping():
 def getDeck():
   return jsonify({"cards": cards})
 
-@app.route('/tarot/deck/card/<int:card_number>')
+@app.route('/tarot/deck/card/<int:card_number>', methods=['GET'])
 def getCard(card_number):
   for card in cards:
     if card['id'] == card_number:
