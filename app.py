@@ -1,10 +1,10 @@
 import random
 
 from flask import Flask, jsonify
+from deck import cards
 
 app = Flask(__name__)
 
-from deck import cards
 
 @app.route('/')
 def ping():
@@ -30,4 +30,4 @@ def dealCards():
 
 
 if __name__ == '__main__':
-  app.run(debug=True, port=4000)
+  app.run(debug=True, use_reloader=True)
