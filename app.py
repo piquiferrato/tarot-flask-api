@@ -5,7 +5,7 @@ from deck import cards
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=['GET'])
 def ping():
   endpoints = [rule.rule for rule in app.url_map.iter_rules() 
   if rule.endpoint !='static']
@@ -36,4 +36,4 @@ def getRandomCard():
   return jsonify({'card': card})
 
 if __name__ == '__main__':
-  app.run(debug=False, use_reloader=True)
+  app.run(debug=True, use_reloader=True)
